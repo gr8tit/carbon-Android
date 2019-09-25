@@ -1,4 +1,4 @@
-# Carbon Testplan Document
+## Carbon Testplan Document
 This testplan has been executed in scope according to the tasks given in the assessment document.
 
 You can veiw document here Onefi QA Engineer Assessment
@@ -15,7 +15,7 @@ These testplan/test suite is analysed into:
                                    - select sign in,
                                    - enter mobile number 08990001099 
                                    - and password 1234|
-user is signed in as expected
+** user is signed in as expected
 
 |Scenerios	|Test Case	|Test steps|
 |Airtime Recharge	|Perform an airtime recharge|	- From dashboard
@@ -25,20 +25,20 @@ user is signed in as expected
                                    - Select mobile network
                                    - Choose wallet any payment method
                                    - confirm payment|
-Airtime recharge successful as expected
+** Airtime recharge successful as expected
 
 Scenerios	Test Case	Test steps
-Fund Wallet	Fund wallet from account	- From Dashboard
+Fund Wallet	|Fund wallet from account	|- From Dashboard
                                    - Select fund wallet, 
                                    - Select debit/atm card fund options
                                    - Enter Amount to fund 1000
                                    - Choose a payment method bank/card 
                                    - Confirm payment|
-Wallet funded sucessfully as expected
+** Wallet funded sucessfully as expected
 
 Scenerios	Test Case	Test steps
-Wallet transactions	View wallet transactions	- From Dashboard
+|Wallet transactions	|View wallet transactions	|- From Dashboard
                                    - Select Transactions
                                    - Select wallet filter options
                                    -select transaction from list to view|
-Transaction details displayed as expected.
+** Transaction details displayed as expected.
