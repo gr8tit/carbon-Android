@@ -24,7 +24,7 @@ These commands are important when setting up your environment:
 * adb shell pm uninstall io.appium.uiautomator2.server.test
 * adb devices
 * adb connect
-C: ..\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s 0238110770400613 shell getprop ro.build.version.sdk
+* C: ..\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s 0238110770400613 shell getprop ro.build.version.sdk
 
 see more https://support.smartbear.com/testcomplete/docs/app-testing/mobile/android/preparing/connecting-to-devices.html
 
